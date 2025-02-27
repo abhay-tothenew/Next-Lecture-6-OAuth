@@ -1,8 +1,6 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
-const BASE_URL = process.env.HOSTED_URL || "http://localhost:3000";
-
 export default NextAuth({
   providers: [
     GoogleProvider({
