@@ -12,10 +12,10 @@ export default NextAuth({
     signIn: "/login",
   },
   callbacks: {
-    async redirect({ url, baseUrl }) {
+    async redirect({baseUrl }) {
       return baseUrl + "/dashboard";
     },
-    async session({ session, token, user }) {
+    async session({ session}) {
       return session;
     },
   },

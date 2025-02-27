@@ -34,7 +34,7 @@ export default function Login() {
         <div style={styles.card}>
           {redirecting ? (
             <div>
-              <h1 style={styles.heading}>You're already logged in</h1>
+              <h1 style={styles.heading}>You&lsquo;re already logged in</h1>
               <p style={styles.text}>
                 Redirecting you in{" "}
                 <span style={styles.highlight}>{countdown}</span> seconds...

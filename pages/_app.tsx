@@ -6,7 +6,6 @@ import { Session } from "next-auth";
 interface CustomAppProps extends AppProps {
   pageProps: {
     session: Session;
-    [key: string]: any;
   };
 }
 
