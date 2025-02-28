@@ -1,5 +1,5 @@
 import { useSession, signOut, getSession } from "next-auth/react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Layout from "../components/Layout";
