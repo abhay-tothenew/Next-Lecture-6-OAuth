@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "axios": "^1.8.1",
     "next": "15.2.0",
     "next-auth": "^4.24.11",
